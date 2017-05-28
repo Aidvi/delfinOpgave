@@ -5,7 +5,6 @@ import java.io.ObjectInputStream;
 import java.util.Scanner;
 public class SwimmerData{
 
-    @SuppressWarnings("unchecked")
     public static void saveToFile(Swimmer swimmer) {
         try {
             FileOutputStream fos = new FileOutputStream(SwimmerData.getFileName(swimmer.getName()));
